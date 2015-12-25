@@ -48,7 +48,7 @@
 }
 
 - (void)showToast:(NSString *)message {
-    [self showToast:message hideAfter:2.0];
+    [self showToast:message hideAfter:2.5];
 }
 
 - (void)showToast:(NSString *)message hideAfter:(NSTimeInterval)duration {
